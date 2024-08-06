@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
+  body {
+    height: 100vh;
+    background-image:url(./Background2.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Inter", sans-serif;
+    color: var(--text-color);
+    
+  }
+
+
+  .chave {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    gap: 1px; 
+    margin-bottom: -30px;
+    border: 1.5px solid white ; /* Borda igual à do botão switch */
+    border-radius: 8px; /* Borda arredondada */
+    padding: 8px 16px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: background 0.7s, transform 0.7s;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+  
+.numero { text-align: center;
+    margin-top: 50px;
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    gap: 1px; 
+    margin-bottom: -30px;
+    border: 1.5px solid white ; /* Borda igual à do botão switch */
+    border-radius: 8px; /* Borda arredondada */
+    padding: 8px 16px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: background 0.7s, transform 0.7s;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+    .qr {
+        display: flex;
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        margin-top: 50px; /* Ajusta o espaçamento acima da imagem */
+    }
+    
+    /* Estilo da imagem dentro da div qr */
+    .qr img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+
+
+
+    footer {
+        padding: 8px;
+        padding-left: 4px;
+        padding-right: 4px; /* Espaçamento interno da caixa */
+        text-align: center; /* Centraliza o texto */
+        font-size: 19px;
+        font-weight: 00;
+        background-color: rgba(0, 0, 0, 0.2); /* Cor de fundo da caixa */
+        border: 1.5px solid white; /* Borda ao redor da caixa */
+        border-radius: 8px; /* Canto arredondado opcional */
+        margin: 8px auto; /* Margem automática para centralizar horizontalmente */
+        width: fit-content; /* Ajusta a largura ao conteúdo */
+        max-width: 100%; /* Garante que não exceda a largura máxima */
+        color: white;
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        transition: background 0.7s, transform 0.7s;
+    
+    
+    }
+    
